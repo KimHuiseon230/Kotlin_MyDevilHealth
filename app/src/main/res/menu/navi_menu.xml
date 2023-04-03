@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_info"
+        android:icon="@drawable/user"
+        android:title="마이페이지" />
+    <item
+        android:id="@+id/item_buy"
+        android:icon="@drawable/cart"
+        android:title="헬스장터" />
+    <item
+        android:id="@+id/item_q"
+        android:icon="@drawable/notification"
+        android:title="공지사항" />
+    <item
+        android:id="@+id/item_as"
+        android:icon="@drawable/customer_service"
+        android:title="고객센터" />
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="search"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@drawable/search"
+        android:completionThreshold="1"
+        android:completionHint="목록에서 원하는 단어를 탭하십시오."
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+</menu>
